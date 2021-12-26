@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Page</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 30px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="demo">What JavaScript Can Do?</h2>
+    <p id="para">Bolo keya bolna haa!!</p>
+    <button onclick=myFunc()>Click Me!</button>
+
+    <script>
+        // This is Single Line Comments.
+        /*
+            This is 
+            Multiple 
+            Line Comments.
+        */
+        function myFunc() {
+            document.getElementById('demo').innerHTML='Hello JavaScript!';
+            document.getElementById('demo').style.fontSize="45px";
+            document.getElementById('demo').style.color='red';
+            document.getElementById('para').style.display='none';
+        }
+    </script>
+</body>
+</html>

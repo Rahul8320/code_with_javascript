@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  background-image: url("train.jpg");
+  color: white;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.container{
+    margin: 20px;
+    padding: 30px;
+}
+
+button{
+   border: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+   font-weight: bold;
+   width: 200px;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+#increment-btn{
+  background: darkred;
+  margin-right: 10px;
+}
+
+#save-btn{
+  background: green;
+  margin-left: 10px;
+}
+
+#save-btn:disabled{
+  opacity: 0;
+}

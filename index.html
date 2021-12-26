@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>javascript basic</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passenger Count</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>People Entered:</h1>
+      <h2 id="countId">0</h2>
+      <button type="button" id="increment-btn" onclick="increment()">
+        INCREMENT 
+      </button>
+      <button id="save-btn" onclick="saveme()">
+        SAVE ME
+      </button>
+      <br>
+      <h1> Total Count : </h1>
+      <h2 id="totalCount"> 0 </h2>
+    </div>
     <script src="script.js"></script>
-</head>
-<body>
-    <p>Before the script............</p>
-    <p>
-    <p>........After the script.</p>
-</body>
+  </body>
 </html>
